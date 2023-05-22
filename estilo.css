@@ -256,7 +256,7 @@ font-size: 1.2rem;
   
   input, textarea {
     width: 200%;
-    padding: 5px;
+    padding: 10px;
     margin-bottom: 10px;
     border: none;
      border-bottom: 1px solid white;
@@ -279,4 +279,17 @@ input[type="submit"] {
     margin-left: 40%;
     padding-top: 6rem;
   }
-  
+  input[type="text"]::placeholder {
+    color: gainsboro;
+    font-family: 'Rubik', sans-serif;
+  }
+
+  input[type="email"]::placeholder {
+    color: gainsboro;
+    font-family: 'Rubik', sans-serif;
+ }
+
+  textarea::placeholder {
+    color: gainsboro;
+    font-family: 'Rubik', sans-serif;
+  }
