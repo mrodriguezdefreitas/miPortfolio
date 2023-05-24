@@ -206,7 +206,7 @@ header{
 .formulario{
     display: flex;
     justify-content: space-between;
-    margin-top: 8rem;
+    margin-top: 10rem;
     margin-left: 6rem;
     width: 88%;
 }
@@ -298,13 +298,65 @@ font-size: 1.2rem;
 
   /* animaciones */
 
-  .letrasNav:hover{
-    text-decoration: underlinen;
-    background-color: rgb(236, 240, 241);
-    border-radius: 4px;
+  .letrasNav:hover,
+  .email:hover{
+    text-decoration: underline;
+    box-shadow: 0 0 3px 12px rgba(200, 200, 200, 0.5);
+    background-color: rgba(200, 200, 200, 0.5);
+    border-radius: 5px;
   }
-  .letrasNav{
-    transition: background-color 0.4s, text-decoration 0.4s, border-radius 0.4s;
+  .letrasNav,
+  .email{
+    transition: background-color 0.3s, text-decoration 0.3s, box-shadow 0.3s, border-radius 0.3s;
   }
   
- 
+.bi-envelope-fill:hover,
+.bi-github:hover,
+.bi-instagram:hover,
+.bi-whatsapp:hover,
+.bi-twitter:hover{
+    box-shadow: 0 0 3px 8px rgba(200, 200, 200, 0.5);
+    background-color: rgba(200, 200, 200, 0.5);
+    border-radius: 2px;
+}
+ .bi-envelope-fill,
+ .bi-github,
+ .bi-instagram,
+ .bi-whatsapp,
+ .bi-twitter{
+    transition: box-shadow 0.3s, background-color 0.3s, border-radius 0.3s;
+ }
+
+.titulo2:hover,
+.titulo3:hover,
+.titulo4:hover{
+    text-decoration: underline;
+}
+.titulo2,
+.titulo3,
+.titulo4{
+    transition: text-decoration 0.3s;
+}
+
+.botonEnviar:hover{
+    transform: scale(1.1);
+    background-color: rgb(33, 33, 33);
+    color: whitesmoke;
+    box-shadow: 0 0 1px 1px rgba(200, 200, 200, 0.5);
+    cursor: pointer;
+}
+.botonEnviar{
+    transition: transform 0.3s, background-color 0.3s, color 0.3s, box-shadow;
+}
+
+.email2:hover{
+  text-decoration: underline;
+  box-shadow: 0 0 3px 12px rgba(200, 200, 200, 0.5);
+  background-color: rgba(200, 200, 200, 0.5);
+  border-radius: 5px;
+}
+.email2{
+  transition: background-color 0.3s, text-decoration 0.3s, box-shadow 0.3s, border-radius 0.3s;
+  color: black;
+  text-decoration: none;
+}
