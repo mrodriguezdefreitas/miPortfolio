@@ -11,7 +11,9 @@ header{
     justify-content: space-between;
     width: 100%;
     position: fixed;
+    z-index: 999;
     padding-top: 2rem;
+    
 }
 
 .logo{
@@ -21,6 +23,7 @@ header{
 .nav{
 
     width: 40%;
+    align-self: center;
     
 }
 .letrasNav{
@@ -329,16 +332,7 @@ font-size: 1.2rem;
     transition: box-shadow 0.3s, background-color 0.3s, border-radius 0.3s;
  }
 
-.titulo2:hover,
-.titulo3:hover,
-.titulo4:hover{
-    text-decoration: underline;
-}
-.titulo2,
-.titulo3,
-.titulo4{
-    transition: text-decoration 0.3s;
-}
+
 
 .botonEnviar:hover{
     transform: scale(1.1);
