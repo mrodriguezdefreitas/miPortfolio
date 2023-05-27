@@ -10,15 +10,16 @@ header{
     display: flex;
     justify-content: space-between;
     width: 100%;
+    position: fixed;
+    padding-top: 2rem;
 }
 
 .logo{
-    width: 300px;
-    margin-left: -2rem;
-    margin-top: -2rem;
+    margin-left: 6rem;
+           
 }
 .nav{
-    margin-top: 6rem;
+
     width: 40%;
     
 }
@@ -31,6 +32,7 @@ header{
 .seccionUno{
     display: flex;
     justify-content: space-between;
+    padding-top: 14rem;    
 }
 .titulo{
     width: 60%;
@@ -190,7 +192,7 @@ header{
     margin-left: 6rem;
     font-weight: bold;
 }
-.educacion{
+.experiencia{
     margin-top: 4rem;
     margin-left: 6rem;
     width: 70%;
@@ -365,7 +367,7 @@ font-size: 1.2rem;
 /* desktop */
 @media screen and (min-width: 1024px){
 body{
-    background-color: red;
+    
         }
 }
 /* tablet */
