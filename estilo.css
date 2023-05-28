@@ -375,4 +375,7 @@ body{
     body{
         background-color: green ;
     }
+    .imagenPrincipal{
+        display: none;
+    }
 }
