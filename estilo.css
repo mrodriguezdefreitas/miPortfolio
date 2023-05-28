@@ -13,12 +13,13 @@ header{
     position: fixed;
     z-index: 999;
     padding-top: 2rem;
+    background-color: white;
+    
     
 }
 
 .logo{
     margin-left: 6rem;
-           
 }
 .nav{
 
