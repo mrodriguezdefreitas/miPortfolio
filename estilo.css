@@ -384,7 +384,7 @@ font-size: 1.2rem;
     flex-direction: column;
 }
 .linea-divisora{
-    width: 30%
+    width: 30%;
 }
 
 .formulario, .subdiv{
@@ -414,39 +414,61 @@ margin-left: 10%;
 }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* celular */
 @media screen and (max-width: 767px){
     body{
-        background-color: green ;
+        
     }
-    .imagenPrincipal{
+    .imagenPrincipal, .email{
         display: none;
     }
+  .miNombre{
+    font-size: 50px;
+  }
+  .seccionDos{
+    display: flex;
+    flex-direction: column;
+}
+.iconos{
+    display: flex;
+    flex-direction: column;
+    }
+.formatoIconos{
+    padding-bottom:  1rem;
+}
+.servicios{
+    display: flex;
+    flex-direction: column;
+}
+.explicacionHtml, .explicacionCss, .explicacionPhotoshop{
+    width: 100%;
+}
+.herramientas, .herramientas2, .herramientas3{
+    display: flex;
+    flex-direction: column;
+}
+.linea-divisora{
+    width: 50%;
+}
+.formulario, .subdiv{
+    display: flex;
+    flex-direction: column;
+}
+.subdiv2{
+    display:flex;
+    flex-direction: column;
+    padding-bottom: 2rem;
+}
+.iconosContacto{
+    align-self: center;
+    padding-left: 1.5rem;
+    padding-bottom: 1rem;
+}
+footer{
+    margin-left: 10%;
+    }
+
+    .form2{
+        width: 40%;
+    
 }
