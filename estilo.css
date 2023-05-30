@@ -416,10 +416,7 @@ margin-left: 10%;
 
 /* celular */
 @media screen and (max-width: 767px){
-    body{
-        
-    }
-    .imagenPrincipal, .email{
+        .imagenPrincipal, .email{
         display: none;
     }
   .miNombre{
@@ -468,7 +465,4 @@ footer{
     margin-left: 10%;
     }
 
-    .form2{
-        width: 40%;
-    
 }
