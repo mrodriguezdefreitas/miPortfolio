@@ -416,7 +416,10 @@ margin-left: 10%;
 
 /* celular */
 @media screen and (max-width: 767px){
-        .imagenPrincipal, .email{
+       body{
+        background-color: red;
+       }
+    .imagenPrincipal, .email{
         display: none;
     }
   .miNombre{
@@ -464,5 +467,17 @@ margin-left: 10%;
 footer{
     margin-left: 10%;
     }
+   
+ .letrasNav:hover,
+.email:hover{
+  text-decoration: underline;
+  box-shadow: 0 0 1px 1px rgba(200, 200, 200, 0.5);
+  background-color: rgba(200, 200, 200, 0.5);
+  border-radius: 5px;
+}
+.letrasNav,
+.email{
+  transition: background-color 0.3s, text-decoration 0.3s, box-shadow 0.3s, border-radius 0.3s;
+}
 
 }
