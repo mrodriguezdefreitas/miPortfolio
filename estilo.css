@@ -14,18 +14,14 @@ header{
     z-index: 999;
     padding-top: 2rem;
     background-color: white;
-    
-    
 }
 
 .logo{
     margin-left: 6rem;
 }
 .nav{
-
-    width: 40%;
+    margin-right: 8rem;
     align-self: center;
-    
 }
 .letrasNav{
     color: black;
@@ -333,8 +329,6 @@ font-size: 1.2rem;
     transition: box-shadow 0.3s, background-color 0.3s, border-radius 0.3s;
  }
 
-
-
 .botonEnviar:hover{
     transform: scale(1.1);
     background-color: rgb(33, 33, 33);
@@ -359,18 +353,77 @@ font-size: 1.2rem;
 }
 
 /* seccion media queries */
-/* desktop */
-@media screen and (min-width: 1024px){
-body{
-    
-        }
-}
+
 /* tablet */
 @media screen and (min-width: 768px) and (max-width: 1023px){
-    body{
-        background-color: blue;
+       .imagenPrincipal{
+        display: none;
     }
+.seccionDos{
+    display: flex;
+    flex-direction: column;
 }
+.iconos{
+    padding-bottom: 2rem;
+}
+.servicios{
+    display: flex;
+    flex-direction: column;
+}
+.explicacionHtml, .explicacionCss, .explicacionPhotoshop{
+    width: auto;
+}
+.herramientas, .herramientas2, .herramientas3{
+    display: flex;
+    flex-direction: column;
+}
+.linea-divisora{
+    width: 30%
+}
+
+.formulario, .subdiv{
+    display: flex;
+    flex-direction: column;
+}
+.subdiv2{
+    display:flex;
+}
+.iconosContacto{
+    align-self: center;
+    padding-left: 1.5rem;
+}
+footer{
+margin-left: 10%;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* celular */
 @media screen and (max-width: 767px){
     body{
