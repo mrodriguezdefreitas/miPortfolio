@@ -416,9 +416,6 @@ margin-left: 10%;
 
 /* celular */
 @media screen and (max-width: 767px){
-       body{
-        background-color: red;
-       }
     .imagenPrincipal, .email{
         display: none;
     }
@@ -456,7 +453,6 @@ margin-left: 10%;
 }
 .subdiv2{
     display:flex;
-    
     padding-bottom: 2rem;
 }
 .iconosContacto{
@@ -484,5 +480,8 @@ footer{
 }
 .textofinal{
     width: 150%;
+}
+.form2{
+    width: 65%;
 }
 }
