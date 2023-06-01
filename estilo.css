@@ -212,7 +212,6 @@ header{
     width: 88%;
 }
 .form1{
-    
     width: 40%;
 }
 .titulo4{
@@ -223,7 +222,6 @@ header{
     padding-top: 1rem;
     font-size: 24px;
 }
-
   
 .form3{
     padding: 3rem;
@@ -412,9 +410,7 @@ margin-left: 10%;
 .email{
   transition: background-color 0.3s, text-decoration 0.3s, box-shadow 0.3s, border-radius 0.3s;
 }
-body{
-    background-color: blue;
-}
+
 }
 
 /* celular */
@@ -490,8 +486,5 @@ footer{
 }
 .form2{
     width: 65%;
-}
-body{
-    background-color: red;
 }
 }
