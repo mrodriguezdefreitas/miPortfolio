@@ -46,12 +46,10 @@ header{
     font-size: 30px;
 }
 .imagenPrincipal{
-    width: 40%;
     margin-right: 6rem;
 }
 .miImagen{
     width: 20rem;
-    padding-left: 20rem;
 }
 
 .seccionDos{
@@ -237,6 +235,7 @@ header{
 .subdiv{
     display: flex;
     justify-content: space-between;
+    width: auto;
 }
 .subdiv1{
     padding-top: 4rem;
@@ -252,14 +251,12 @@ padding-right: 1rem;
 font-size: 1.2rem;
 }
 
-
 .form2 {
     background-color: rgb(33, 33, 33);
     color: white;
     padding: 3rem;
     margin-right: 6rem;
     width: 35%;
-
   }
   
   .form{
@@ -358,8 +355,8 @@ font-size: 1.2rem;
 /* tablet */
 @media screen and (min-width: 768px) and (max-width: 1023px){
     .nav{
-        width: 10%;
-        margin: auto;
+        width:10%;
+        
     }
     
     .imagenPrincipal{
@@ -394,6 +391,9 @@ font-size: 1.2rem;
 .subdiv2{
     display:flex;
 }
+form, .form2{
+    width: 65%;
+}
 .iconosContacto{
     align-self: center;
     padding-left: 1.5rem;
@@ -412,10 +412,17 @@ margin-left: 10%;
 .email{
   transition: background-color 0.3s, text-decoration 0.3s, box-shadow 0.3s, border-radius 0.3s;
 }
+body{
+    background-color: blue;
+}
 }
 
 /* celular */
 @media screen and (max-width: 767px){
+    .nav{
+        width: 10%;
+        
+    }
     .imagenPrincipal, .email{
         display: none;
     }
@@ -424,11 +431,11 @@ margin-left: 10%;
   }
   .seccionDos{
     display: flex;
-    flex-direction: column;
+    
 }
 .iconos{
     display: flex;
-    flex-direction: column;
+    
     }
 .formatoIconos{
     padding-bottom:  1rem;
@@ -483,5 +490,8 @@ footer{
 }
 .form2{
     width: 65%;
+}
+body{
+    background-color: red;
 }
 }
